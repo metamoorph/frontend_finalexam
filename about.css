@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+* {
+    margin: 0;
+    background-color: black;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+    font-family: 'Teko', sans-serif;
+
+
+
+
+   }
+
+   li,a,button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: edf0f1;
+    text-decoration: none;
+}
+ 
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+}
+ 
+.logo
+{
+    cursor: pointer;
+    width: 70px;
+}
+ 
+.nav__links {
+    list-style: none;
+    font-family: 'Teko', sans-serif;
+}
+ 
+.nav__links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+ 
+.nav__links li a {
+    font-weight: 40px;
+    font-family: 'Teko', sans-serif;
+    transition: all 0.3s ease 0s;
+    color: white;
+ 
+}
+ 
+.nav__links li a:hover {
+    color: #cc000a;
+}
+ 
+button
+{
+    padding: 9px 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 40px;
+    font-family: 'Teko', sans-serif;
+
+}
+
+
+.about {
+  margin: 80px 20px 20px 20px;
+}
+
+.about image {
+  height: 50px;
+}
+
+.about .box-container .box .image {
+  height: 50%;
+  overflow: hidden;
+}
+
+.about .box-container .box .image img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.about .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 18px;
+}
+.about h1  {
+  font-size: 22px;
+  color: rgb(136, 136, 136);
+}
+
+.wrap h2 {
+  font-size: 22px;
+  color: rgb(136, 136, 136);
+}
+
+.wrap h4 {
+  font-size: 15px;
+  color: rgb(136, 136, 136);
+}
+
+.about .box-container .box p {
+  color: var(--dark-gray);
+  margin-bottom: 2rem;
+  font-size: 17px;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-transform: none;
+}
+/* about */
+
+  .about .box-container .box .image {
+    height: 100%;
+    overflow: hidden;
+  }
+  .about .box-container .box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .social {
+    padding: 10;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+
+    
+  }
+
+  social ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+  }
+
+  li:not(:first-child) {
+    padding-left: 40px;
+    color:red;
+  }
+
+  .social li {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: inline-block;
+  }
+  .btn {
+    color: red;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    
+  }
+
+
+
+
+
+
+
+
+  .footer {
+    border-top: 0.2rem solid var(--light-bg);
+    text-align: center;
+  }
+  .footer .socials ion-icon {
+    font-size: 2.5rem;
+    color: white;
+    background-color: var(--light-bg);
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  .footer p {
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin-top: 3rem;
+  }
